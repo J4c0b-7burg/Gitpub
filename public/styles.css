@@ -1,0 +1,16 @@
+*{
+    background-color: steelblue;
+}
+h1{
+    color: black;
+    text-align: center;
+    size: 20px;
+}
+.fIMG{
+    max-width: 300px;
+    max-height: 300px;
+}
+.dIMG{
+    max-width: 300px;
+    max-height: 300px;
+}

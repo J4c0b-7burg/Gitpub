@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <%- include("./partials/head.ejs") %>
+    <body>
+        <h1>Drinks show page</h1>
+        The <%= drink.name %> cost is $<%= drink.price %>.
+        <a href="/drinks"><button>Return to Index</button></a>
+        <img class="fIMG" src= "<%= drink.image %>">
+    </body>
+</html>
